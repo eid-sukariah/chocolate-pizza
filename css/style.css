@@ -3,58 +3,103 @@
 }
 
 header {
-  background-color: antiquewhite;
   padding: 50px;
+
+  margin-left: 250px;
+  margin-right: 200px;
+  border-bottom: 5px solid darkgray;
 }
 #Delicious {
   position: relative;
-  right: 50px;
+
+  top: 60px;
 }
 #Delicious img {
   float: left;
 }
 
+header #Delicious h1 {
+  font-family: "Sofia", sans-serif;
+  font-weight: bolder;
+}
+
 #imgs {
   position: relative;
-  left: 900px;
+  left: 500px;
 }
 header #imgs :nth-last-child(2) {
   margin-left: 15px;
 }
+header p {
+  color: darkgray;
+}
+main {
+  clear: both;
+  position: relative;
+  padding: 90px;
+  margin: 30px;
+}
 main h1 {
-  font-family: "Sofia", sans-serif;
+  position: relative;
+  font-family: "RocknRoll One", sans-serif;
   font-weight: bolder;
+  font-size: 30px;
+  left: 130px;
+}
+main h3 {
+  position: relative;
+  color: darkgray;
+  left: 130px;
+
+  margin-bottom: 30px;
+}
+#print-icon img {
+  float: left;
+}
+#print-icon {
+  position: relative;
+  left: 950px;
+  font-size: small;
 }
 
 #image1 {
   position: relative;
   left: 100px;
 }
-#imageprint {
-  position: relative;
-  /* left: 700px;*/
-}
+
 .paraghraphs {
   padding: 20px;
   width: 900px;
   margin-left: 100px;
 }
-.forms1{ margin-left: 100px;}
+.forms1 {
+  margin-left: 100px;
+  padding-bottom: 90px;
+  margin-right: 60px;
+  border-bottom: 5px solid darkgray;
+}
 .forms1 img {
   clear: both;
   position: absolute;
 }
-.form1 {
+form {
   position: relative;
   font: 1em sans-serif;
+  margin-left: 90px;
 }
-
+.form1 {
+  top: 20px;
+  left: 100px;
+}
+.form2 {
+  left: 400px;
+  bottom: 100px;
+}
 figure {
   clear: both;
-  margin-top: 200px;
-  background-color: rgb(236, 234, 232);
+
   padding: 40px;
-  width: 600px;
+  width: 900px;
   margin-left: 100px;
 }
 figure img {
@@ -62,11 +107,14 @@ figure img {
 }
 #lastpara {
   position: relative;
-  left: 500px;
+  left: 800px;
   bottom: 70px;
   background-color: rgb(163, 71, 71);
   border: 2px solid brown;
   width: 60px;
+}
+footer {
+  text-align: center;
+  padding-bottom: 50px;
   
 }
-footer{text-align:center;}
