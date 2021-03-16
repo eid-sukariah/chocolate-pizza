@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Sofia"
-    />
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
     <title>Document</title>
   </head>
   <body>
@@ -14,7 +10,7 @@
       <div id="Delicious">
         <img src="img/small-logo.png" />
         <h1>Delicious</h1>
-
+          <br>
         <p>the best food</p>
       </div>
       <div id="imgs">
@@ -31,11 +27,12 @@
 
     <main>
       <h1>Chocolate Pizza</h1>
-      <h3>18-FEB-2021</h3>
-
-      <img src="img/print-icon.png" id="imageprint" />
-
-      <img src="img/choco-pizza.png" id="image1" />
+      <h3>posted in: 18-FEB-2021</h3>
+      <div class="smallPhoto">
+      <img src="img/print-icon.png"  />
+      <p>print</p>
+      </div>
+      <img src="img/choco-pizza.png" class="bigPhoto" />
 
       <p class="paraghraphs">
         Chocolate is a preparation of roasted and ground cacao seeds that is
@@ -61,9 +58,8 @@
         together.
       </p>
 
-      <div class="forms1">
-        <img src="img/list-bg.png" />
-        <div class="form1">
+        <img src="img/list-bg.png" class="imgBox" />
+        <div class="chackBox1">
           <form>
             <input type="checkbox" id="cupmilk" />
             <label for="cupmilk">cupmilk</label>
@@ -90,18 +86,43 @@
             <label for="butter">1 butter</label>
           </form>
         </div>
-      </div>
-      <figure>
+        <div class="chackBox2">
+          <form>
+            <input type="checkbox" id="cupmilk" />
+            <label for="cupmilk">cupmilk</label>
+            <br />
+            <input type="checkbox" id="cupsuger" />
+            <label for="cupsuger">cupsuger</label>
+            <br />
+            <input type="checkbox" id="cupcream" />
+            <label for="cupcream">cupcream</label>
+            <br />
+            <input type="checkbox" id="cupchocolate" />
+            <label class="cupchocolate">cupchocolate</label>
+            <br />
+            <input type="checkbox" id="cupjuice" />
+            <label class="cupjuice">cupjuice</label>
+            <br />
+            <input type="checkbox" id="egg" />
+            <label for="egg">2 egg</label>
+            <br />
+            <input type="checkbox" id="juice" />
+            <label for="juice">1 cup juice</label>
+            <br />
+            <input type="checkbox" id="butter" />
+            <label for="butter">1 butter</label>
+          </form>
+        </div>
+    <figure>
         <img src="img/van-pic.png" />
-        <p>vanessa stevenson</p>
-        <p>food enthusisat photography. add a pinch of row foodism</p>
-        <p id="lastpara">SHARE RECIPE</p>
-      </figure>
+        <p class="name">vanessa stevenson</p>
+        <p class="disc">food enthusisat photography. add a pinch of row foodism</p>
+        <button>Share Racipe</button>      
+    </figure>
     </main>
     <footer>
       <img src="img/small-logo.png" />
-      <p>Delicious &copy; copy right reserved</p>
-      <p>proudly published with me</p>
+      <p class="copy">Delicious &copy; copy right reserved</p>
     </footer>
   </body>
 </html>

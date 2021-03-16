@@ -1,72 +1,85 @@
-* {
+body{
   box-sizing: border-box;
-}
-
-header {
-  background-color: antiquewhite;
-  padding: 50px;
-}
-#Delicious {
-  position: relative;
-  right: 50px;
-}
-#Delicious img {
-  float: left;
-}
-
-#imgs {
-  position: relative;
-  left: 900px;
-}
-header #imgs :nth-last-child(2) {
-  margin-left: 15px;
-}
-main h1 {
-  font-family: "Sofia", sans-serif;
-  font-weight: bolder;
-}
-
-#image1 {
-  position: relative;
-  left: 100px;
-}
-#imageprint {
-  position: relative;
-  /* left: 700px;*/
-}
-.paraghraphs {
-  padding: 20px;
-  width: 900px;
-  margin-left: 100px;
-}
-.forms1{ margin-left: 100px;}
-.forms1 img {
-  clear: both;
+  width: 80%;
   position: absolute;
+  left: 200px;
 }
-.form1 {
-  position: relative;
-  font: 1em sans-serif;
+header{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin: 20px 0 70px 0 ;
+  border-bottom: 5px dashed rgb(70, 69, 69);
 }
-
-figure {
-  clear: both;
-  margin-top: 200px;
-  background-color: rgb(236, 234, 232);
-  padding: 40px;
-  width: 600px;
-  margin-left: 100px;
+div h1,p{
+  float: right;
+  padding-left: 5px;
 }
-figure img {
-  float: left;
+div h1{
+  font-weight: bold;
+  font-family:fantasy;
 }
-#lastpara {
-  position: relative;
-  left: 500px;
-  bottom: 70px;
-  background-color: rgb(163, 71, 71);
-  border: 2px solid brown;
-  width: 60px;
-  
+div img:nth-last-child(-n+2){
+  margin-left: 10px;
 }
-footer{text-align:center;}
+main h1{
+  font-weight: bold;
+  font-size: 40px;
+}
+.bigPhoto , .imgBox{
+  width: 100%;
+}
+.smallPhoto{
+  float:right;
+  margin: 10px;
+}
+.paraghraphs{
+  line-height: 1.6;
+  text-align:justify;
+}
+.chackBox1{
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+  font-size: 30px;
+}
+.chackBox2{
+  position: absolute;
+  bottom: 300px;
+  left: 600px;
+  font-size: 30px
+}
+figure{
+  border-top: 5px dashed rgb(70, 69, 69);
+  padding: 20px 0 20px 0;
+}
+.name{
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  right: 1444px;
+  bottom: 100px;
+}
+.disc{
+  position: absolute;
+  right: 1230px;
+  bottom: 75px;
+}
+button{
+  font-size: 18px;
+  background-color: rgb(207, 82, 10);
+  color: white;
+  float: right;
+  width: 150px;
+  height: 50px;
+}
+footer{
+  text-align: center;
+}
+.copy{
+ position: absolute;
+ right: 750px;
+}
+.cupchocolate, .cupjuice{
+  text-decoration: line-through;
+}
